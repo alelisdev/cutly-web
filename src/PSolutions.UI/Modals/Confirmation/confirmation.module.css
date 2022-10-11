@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+
+.footer{
+    border-top: none;
+}

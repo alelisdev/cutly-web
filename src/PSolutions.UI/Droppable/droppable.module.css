@@ -1,0 +1,5 @@
+.droppableContainer {
+    min-height: 1rem;
+}
+
+/*{minHeight: '2rem', borderRadius: '.3rem', marginBottom: '1rem', backgroundColor: 'var(--falcon-100)'}*/

@@ -1,0 +1,90 @@
+.cropperSlider {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    cursor: pointer;
+    max-width: 380px;
+    padding-left: 16px;
+    border-radius: 10px;
+    padding-right: 16px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(27, 26, 33, 0.4);
+}
+
+.cropperSliderWrapper {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+}
+
+.cropperSliderLine {
+    height: 2px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.cropperSliderFill {
+    height: 2px;
+    flex-shrink: 0;
+    flex-basis: auto;
+    background: white;
+    position: absolute;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.cropperSliderDot {
+    left: 50%;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.cropperSliderValue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition-duration: 0.5s;
+    transition-property: font-size, opacity;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    top: -20px;
+    vertical-align: bottom;
+    transform: translate(-50%);
+}
+
+.cropperSliderHandler {
+    width: 2px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition-duration: 0.2s;
+    transition-property: height;
+    background-color: white;
+}
+
+.cropperSliderHandler:hover {
+    height: 10px;
+}
+
+.cropperSliderHandlerFocus {
+    height: 10px;
+}
+
+.cropperSliderHandlerHidden {
+    height: 4px;
+}

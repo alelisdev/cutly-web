@@ -1,0 +1,54 @@
+.cutlyCropper{
+    padding: 0;
+}
+
+.imageEditor {
+    max-height: 100%;
+    border: solid 1px #2b2a30;
+    color: var(--falcon-primary);
+}
+
+.imageEditorCropper {
+    max-height: 100%;
+    position: relative;
+    background: #0f0e13;
+}
+
+.imageEditorSlider {
+    left: 50%;
+    width: 100%;
+    bottom: 20px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.imageEditorCropperOverlay {
+    transition: 0.5s;
+}
+
+.imageEditorCropperOverlayFaded {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.imageEditorService {
+    pointer-events: none;
+    left: -100%;
+    position: absolute;
+}
+
+.imageEditorResetButton {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.imageEditorResetButton:hover {
+    color: var(--falcon-primary);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.imageEditorResetButtonHidden {
+    opacity: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,22 @@
+.draggableHolder {
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+}
+
+.draggableIndicator {
+    top: 0;
+    bottom: 0;
+    cursor: grab;
+    right: 1.2rem;
+    margin-top: .1rem;
+    position: absolute;
+    font-size: 1.75rem;
+    color: var(--falcon-400);
+}
+
+.icon {
+    padding-inline-end: .2rem;
+    margin-top: .15rem !important;
+    color: var(--falcon-gray-400);
+}

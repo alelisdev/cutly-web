@@ -1,0 +1,22 @@
+.container {
+    padding: 2rem 2.5rem;
+    border-radius: .75rem;
+    background: rgba(0, 0, 0, .5);
+}
+
+.content {
+    border: none;
+    box-shadow: none;
+    margin-top: 15rem;
+    background: transparent;
+}
+
+.backdrop {
+    opacity: .10;
+}
+
+.contentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,4 @@
+export enum AppActionsEnum {
+  APP_LOG_IN_SUCCESS = "APP/APP_LOG_IN_SUCCESS",
+  APP_LOG_OUT_SUCCESS = "APP/APP_LOG_OUT_SUCCESS",
+}

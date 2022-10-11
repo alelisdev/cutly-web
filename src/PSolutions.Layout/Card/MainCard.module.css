@@ -1,0 +1,7 @@
+.fullHeightCard {
+    /*height: calc(100vh - 4.3125rem - 1px - 3.9875rem);*/
+}
+
+.cardBody {
+    overflow-y: auto;
+}

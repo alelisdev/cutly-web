@@ -1,0 +1,25 @@
+
+.draggableHolder {
+    cursor: pointer;
+    position: relative;
+}
+
+.draggableIndicator {
+    top: 0;
+    bottom: 0;
+    cursor: grab;
+    right: 0.75rem;
+    font-size: 1.75rem;
+    position: absolute;
+}
+
+.coverHolder {
+    background-image: url("https://falconreact.prium.me/static/media/4.ddc97c46.jpg");
+}
+
+.avatarHolder img {
+    padding: 0.45rem;
+    cursor: pointer;
+    border: 3px var(--falcon-thumbnail-bg);
+    background-color: var(--falcon-thumbnail-bg);
+}

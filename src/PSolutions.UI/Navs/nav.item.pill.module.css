@@ -1,0 +1,9 @@
+.navItemPill {
+    color: var(--falcon-600);
+    font-size: 1.7rem !important;
+}
+
+
+.active {
+    color: var(--falcon-primary);
+}

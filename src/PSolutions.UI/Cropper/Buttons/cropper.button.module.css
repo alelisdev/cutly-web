@@ -1,0 +1,32 @@
+.imageEditorButton {
+    padding: 0;
+    border: none;
+    width: 46px;
+    outline: none;
+    height: 46px;
+    display: flex;
+    fill: #88888b;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 50%;
+    color: currentColor;
+    align-items: center;
+    background: transparent;
+    justify-content: center;
+}
+
+.imageEditorButtonActive {
+    fill: currentColor;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.imageEditorButton:hover, .imageEditorButton:focus {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+@media (max-width: 540px) {
+    .imageEditorButton {
+        width: 32px;
+        height: 32px;
+    }
+}

@@ -1,0 +1,19 @@
+
+.draggableHolder {
+    cursor: default;
+    position: relative;
+}
+
+.draggableIndicator {
+    top: 0;
+    bottom: 0;
+    right: 1.75rem;
+    cursor: pointer;
+    font-size: 1.75rem;
+    position: absolute;
+}
+
+.simpleBar {
+    max-height: 30rem;
+}
+

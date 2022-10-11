@@ -1,0 +1,106 @@
+
+/** Full calendar section **/
+
+.fc-scroller {
+    overflow-y: auto !important;
+}
+
+.fc-v-event {
+    border: none !important;
+    background-color: var(--falcon-200) !important;
+}
+
+.fc .fc-highlight {
+    background: transparent !important;
+}
+
+.fc-timegrid-slot {
+    height: 2.5rem !important;
+}
+
+
+.fc .fc-timegrid-axis-cushion {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+    border-color: var(--falcon-200) !important;
+}
+
+.fc-scrollgrid-section-header .fc-scroller {
+    overflow-y: hidden !important;
+}
+
+.fc-scrollgrid-section-header > td:first-child {
+    border: none !important;
+}
+
+.fc-timegrid.fc-timeGridWeek-view a.fc-col-header-cell-cushion {
+    text-transform: capitalize;
+}
+
+.fc .fc-timeGridDay-view .fc-timegrid-col, .fc .fc-timeGridWeek-view .fc-timegrid-col {
+    padding: 0 !important;
+}
+
+.fc-non-business {
+    background-size: 25px 25px !important;
+    background-color: var(--falcon-200) !important;
+    background-image: url("https://res.cloudinary.com/barbershop-branding/image/upload/v1632544843/Tekica%20Web/calendar-pattern_mrqu5y.svg") !important;
+}
+
+/** End of full calendar section **/
+
+.no-text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.table-header {
+    background-color: #e7f0f3;
+}
+
+.table-header tr th {
+    color: #141313;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.table-body tr td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.table-body .tr-even {
+    background-color: #e7f0f3;
+}
+
+.table-body .tr-odd {
+    background-color: #ffffff;
+}
+
+td .dropdown .btn-primary {
+    color: #1a1818;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+td .dropdown .btn-primary:hover {
+    color: #1a1818;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+td .dropdown .btn-primary:active {
+    color: #1a1818;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+td .dropdown .btn-primary:focus {
+    color: #1a1818;
+    background-color: transparent;
+    border-color: transparent;
+}

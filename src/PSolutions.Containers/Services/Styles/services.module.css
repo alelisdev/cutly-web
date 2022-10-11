@@ -1,0 +1,50 @@
+
+.draggableHolder {
+    /* cursor: pointer; */
+    position: relative;
+    /* background-color: white; */
+}
+
+.draggableIndicator {
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    right: 0.75rem;
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+.coverHolder {
+    background-image: url("https://falconreact.prium.me/static/media/4.ddc97c46.jpg");
+}
+
+.avatarHolder img {
+    padding: 0.45rem;
+    border: 3px var(--falcon-thumbnail-bg);
+    background-color: var(--falcon-thumbnail-bg);
+}
+
+.categoryDraggableHolder {
+    cursor: pointer;
+    position: relative;
+}
+
+.categoryDraggableIndicator {
+    cursor: grab;
+    font-size: 1.5rem;
+}
+
+.categoryArrow {
+    top: 0;
+    bottom: 0;
+    right: 0.75rem;
+    position: absolute;
+}
+
+.categoryTitle {
+    color: #9da9bb;
+}
+
+.categoryTitleActive {
+    color: var(--falcon-primary);
+}

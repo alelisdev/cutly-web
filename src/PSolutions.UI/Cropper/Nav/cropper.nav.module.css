@@ -1,0 +1,37 @@
+.imageEditorNavigation {
+    height: 84px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #1b1a21;
+    border-top: solid 1px #2b2a30;
+    justify-content: space-between;
+}
+
+.navButton {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.imageEditorNavigationButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadButton {
+    display: none;
+}
+
+@media (max-width: 540px) {
+    .imageEditorNavigation {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .navButton {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}

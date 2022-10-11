@@ -1,0 +1,45 @@
+
+.locationItem {
+    width: 20rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: .5rem;
+    margin-bottom: 2rem;
+}
+
+.locationItem.selected {
+    /*border: 2px solid var(--falcon-success);*/
+}
+
+.locationItemImg {
+    max-height: 9.75rem;
+}
+
+.locationAddress {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.placeholderImage {
+    width: 100%;
+    height: 11.25rem;
+}
+
+.wrapper {
+    right: .75rem;
+    display: flex;
+    bottom: 3.25rem;
+    padding: 0.2em;
+    position: absolute;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: var(--falcon-white);
+    background: var(--falcon-success);
+}
+
+.wrapper .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
